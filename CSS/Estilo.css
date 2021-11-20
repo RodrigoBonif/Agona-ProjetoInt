@@ -1,3 +1,4 @@
+/* Home */
 .corpo {
     width: 100vw;
     height: 100vh;
@@ -105,22 +106,11 @@
     font-size: 40px;
     margin: 6px;
   }
-/* utilitarias */
-  
-.open-display {
-    display: block;
-}
-.text-green {
-    color: #4FB069;
-}
-.text-white {
-    color: #E4E2FA;
-}
-.text-gray {
-    color: #262626;
-}
 
-/*GUILHERME*/
+
+/*LOGIN/G*/
+
+
 body {
     padding: 0;
     margin: 0;
@@ -139,8 +129,9 @@ body {
 .comeco {
     background-color: #262626;
     padding: 40px;
-    border-radius: 2px;
-    width:280px;
+    border-radius: 5px;
+    height: 400px;
+    width:380px;
 
 }
 
@@ -164,7 +155,7 @@ body {
 
 .conteudo label {
     color: #4FB069;
-    font-size: 12px;
+    font-size: 22px;
     opacity: 0.8;
 
 }
@@ -184,6 +175,7 @@ body {
     border-bottom: 1px solid #4FB069;
     outline: none;
     color: #4FB069;
+    font-size: 17px;
 
 }
 
@@ -201,6 +193,7 @@ body {
     color:#4FB069;
     margin: 10px 0;
     cursor: pointer;
+    font-size: 17px;
 }
 
 .footer .submit:hover{
@@ -211,9 +204,69 @@ body {
 
 .footer a {
     text-align: center;
-    font-size: 12px;
+    font-size: 22px;
     opacity: 0.6;
     color: #4FB069;
     text-decoration: none;
 
+}
+
+/* Sobre */
+
+.box-sobre {
+    width: 90%;
+    height: 70%;
+    left: 80px;
+    top: 200px;
+    position: fixed;
+}
+.box-icone-sobre {
+    background-color: #4FB069;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2%;
+    padding: 1%;
+}
+.icone-interrogacao {
+    font-size: 60px;
+    vertical-align: middle;
+}
+.box-titulo-sobre {
+    height: 130px;
+    width: 400px;
+    display: inline-block; 
+    color: #E4E2FA;
+    margin: 0;
+    vertical-align: sub;
+}
+.titulo-sobre {
+    font-size: 40px;
+}
+.text-sobre {
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icone-arrow-sobre {
+    color: #4FB069;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.image-ifc-sobre {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+}
+/* utilitarias */
+  
+.open-display {
+    display: block;
+}
+.text-green {
+    color: #4FB069;
+}
+.text-white {
+    color: #E4E2FA;
+}
+.text-gray {
+    color: #262626;
 }
