@@ -116,7 +116,22 @@ body {
     margin: 0;
     background-color: #1c1c1c;
 }
-
+.box-voltar {
+    width: 50px;
+    height: 40px;
+    position: fixed;
+    right: 750px;
+    top: 270px;
+    background-color: #1c1c1c;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+.icone-voltar {
+    font-size: 30px;
+    text-decoration: none;
+    color: #4FB069;
+}
 #login {
     display: flex;
     align-items: center;
