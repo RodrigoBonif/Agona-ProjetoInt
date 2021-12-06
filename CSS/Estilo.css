@@ -1,15 +1,13 @@
-/* Home */
+/* home */
 .corpo {
     width: 100vw;
     height: 100vh;
     background-color: #1c1c1c;
     display: block;
     float: left;
-    position: fixed;
     top: 0;
     left: 0;
 }
-
 .menu {
         width: 90%;
         height: 110px;
@@ -106,7 +104,53 @@
     font-size: 40px;
     margin: 6px;
   }
-
+.box-destaque { 
+    width: 70%;
+    height: 85%;
+    position: relative;
+    display: block;
+    top: 10%;
+    left: 10.5%;
+    font-size: 20px;
+}
+.text-title-home {
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+.box-chats-home {
+    width: 30%;
+    position: absolute;
+    height: 90%;
+}
+.box-textos-chats {
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    right: 0;
+    text-align: justify;
+}
+.box-imagem-chat {
+    width: 300px;
+    height: 150px;
+    margin: 25px;
+    background-color: #262626;
+    color: #4FB069;
+    text-align: center;
+    font-size: 120px;
+    transition: all 0.2s ease-out;
+}
+.box-imagem-chat:hover {
+    background-color: #397749;
+    color: #1c1c1c;
+    cursor: pointer;
+}
+.box-text-home {
+    width: 700px;
+    height: 150px;
+    margin: 25px;
+    font-size: 24px;
+    color: #E4E2FA;
+}
 
 /*LOGIN/G*/
 
@@ -115,6 +159,15 @@ body {
     padding: 0;
     margin: 0;
     background-color: #1c1c1c;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 .box-voltar {
     width: 50px;
@@ -131,14 +184,6 @@ body {
     font-size: 30px;
     text-decoration: none;
     color: #4FB069;
-}
-#login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
 
 .comeco {
